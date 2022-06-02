@@ -1,0 +1,105 @@
+.wrapperCourses
+{
+    background-color: rgb(228, 211, 192);
+    font-family: Victor mono;
+}
+
+.courses
+{
+    height: 90vh;
+    padding: 1em;
+    
+
+    &__math
+    {
+        border-radius: 1em;
+        background-color: rgb(148, 214, 223);
+
+        &--animation
+        {
+            padding: 1em;
+            visibility: hidden;
+            clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+            transition: clip-path .3s;
+        }
+    }
+
+    &__letras
+    {
+        border-radius: 1em;
+        background-color: rgb(187, 87, 87);
+
+        &--animation
+        {
+            visibility: hidden;
+            padding: 1em;
+            clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+            transition: clip-path .3s;
+        }
+    }
+
+    &__ciencia
+    {
+        background-color: rgb(214, 120, 172);
+        border-radius: 1em;
+
+        &--animation
+        {
+            visibility: hidden;
+            padding: 1em;
+            clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%);
+            transition: clip-path .3s;
+        }
+    }
+
+   
+}
+
+.leyenda
+{
+    padding: 1em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__bloque
+    {
+        display: flex;
+        gap: 1em;
+    }
+
+    &__math
+    {
+        background-color: rgb(148, 214, 223);
+        height: 2em;
+        width: 2em;
+    }
+
+    &__letras
+    {
+        background-color: rgb(187, 87, 87);
+        height: 2em;
+        width: 2em;
+    }
+
+    &__ciencia
+    {
+        background-color: rgb(214, 120, 172);
+        height: 2em;
+        width: 2em;
+    }
+}
+
+.coursesHidden
+{
+    display: flex;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.intro
+{
+    visibility: visible;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}

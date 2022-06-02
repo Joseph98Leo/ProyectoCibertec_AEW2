@@ -1,0 +1,32 @@
+[
+    {
+        "user"      :   "joseph98",
+        "password"  :   "123456",
+        "perfil"    :   "/imagenes/image-avatar.png"
+    },
+
+    {
+        "user"      :   "mayra20",
+        "password"  :   "235711",
+        "perfil"    :   "loqsea"
+    },
+
+    {
+        "user"      :   "augusto22",
+        "password"  :   "123321",
+        "perfil"    :   "loqseax2"
+    },
+
+    {
+        "user"      :   "danxr",
+        "password"  :   "390625",
+        "perfil"    :   "loqseax3"
+    },
+
+    {
+        "user"      :   "miguelwix",
+        "password"  :   "135791",
+        "perfil"    :   "/imagenes/wixPerfil.png"
+    }
+    
+]

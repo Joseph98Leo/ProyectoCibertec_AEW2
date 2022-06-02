@@ -1,0 +1,46 @@
+
+.header
+{
+    border: 1px solid red;
+    padding: 1em;
+    height: 10vh;
+    width: 100%;
+}
+
+.navigation
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__brand img
+    {    
+        height: 4em;   
+    }
+
+    &__items
+    {
+        width: 60%;
+    }
+
+    &__items ul
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 2em;
+        padding: 0.5em;
+
+        & li
+        {
+            list-style: none;
+            font-weight: bold;
+            font-size: 1em;
+            font-family: Victor Mono;
+        }
+    }
+}
+
+
+
+

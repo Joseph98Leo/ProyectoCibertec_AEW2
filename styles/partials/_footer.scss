@@ -1,0 +1,53 @@
+
+.footer__wrapper
+{
+    background-color: #023143b4;
+    /* border: 1px solid red; */
+}
+
+.footer__columns
+{
+    display: flex;
+    padding: 1em;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.column
+{
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.column li
+{
+    list-style: none;
+    color: whitesmoke;
+}
+
+.column .icons
+{
+    display: flex;
+    padding-top: 1em;
+    gap: 1em;
+    font-size: 1.5em;
+}
+
+.footer
+{
+    /* background-color: #023143; */
+    height: 100%;
+}
+
+.footerLogo
+{
+    height: 3em;
+}
+
+.derecho
+{
+    display: flex;
+    justify-content: center;
+    padding: 1em 0 2em 0;
+}
