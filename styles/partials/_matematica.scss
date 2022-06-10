@@ -1,0 +1,49 @@
+.bodyMath
+{
+    background-color: black;
+}
+
+.math
+{
+    // border: 1px solid red;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;    
+    grid-template-columns: 1.3fr 1fr;
+    padding: 2em;
+
+    &__info
+    {
+        // border: 1px solid blue;
+        width: 60%;
+        height: 40vh;
+        margin: auto;
+    }
+
+    &__text
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+        margin: auto;
+        gap: 2em;
+        // border: 1px solid red;
+
+        
+        h1
+        {
+            font-size: 2.5em;
+        }
+        
+        p,a
+        {
+            font-size: 1.3em;
+            font-family: Victor mono;
+        }
+
+    }
+}
