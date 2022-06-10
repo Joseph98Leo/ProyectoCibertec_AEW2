@@ -11,22 +11,61 @@
     </head>
     <body class="wrapperCourses">
         <!-- ########################## NAVIGATION ######################### -->
-        <header class="header">
-            <nav class="navigation">
-                <div class="navigation__brand">
-                    <img src="../imagenes/logo.jpg" alt="">
+        <nav class="menu">
+            <section class="menu__container">
+                <img src="../imagenes/logo.jpg" alt="" class="menu__logo">
+    
+                <ul class="menu__links">
+                    <li class="menu__item menu__item--show">
+                        <a href="../index.html" class="menu__link">INICIO <img src="../imagenes/ArrowDown.svg" class="menu__arrow" alt=""></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="nosotros.html" class="menu__link menu__link--inside">nosotros</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="objetivos.html" class="menu__link menu__link--inside">objetivos</a>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li class="menu__item menu__item--show">
+                        <a href="cursos.html" class="menu__link">CURSOS <img src="../imagenes/ArrowDown.svg" class="menu__arrow" alt=""></a>
+        
+                        <ul class="menu__nesting">
+                            <li class="menu__inside">
+                                <a href="matematicas.html" class="menu__link menu__link--inside">MATEMÁTICAS</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="ciencias.html" class="menu__link menu__link--inside">CIENCIAS</a>
+                            </li>
+                            <li class="menu__inside">
+                                <a href="letras.html" class="menu__link menu__link--inside">LETRAS</a>
+                            </li>
+                        </ul>
+                    </li>
+        
+                    <li class="menu__item">
+                        <a href="noticias.html" class="menu__link">NOTICIAS</a>
+                    </li>
+    
+                    <li class="menu__item">
+                        <a href="galeria.html" class="menu__link">GALERÍA</a>
+                    </li>
+        
+                    <li class="menu__item">
+                        <a href="talleres.html" class="menu__link">TALLERES</a>
+                    </li>
+        
+                </ul>
+    
+                <div class="menu__hamburguer">
+                    <img src="../imagenes/menu.svg" class="menu__img">
                 </div>
-
-                <div class="navigation__items">
-                    <ul>
-                        <li><a href="../index.html">Inicio</a></li>
-                        <li><a href="cursos.html">Cursos</a></li>
-                        <li><a href="registro.html">Noticias</a></li>
-                        <li><a href="noticias.html">Galería</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
+            </section>
+    
+            
+        </nav>
 
         <!-- #################### INFO SECTION ##################### -->
 
@@ -63,10 +102,7 @@
                 </div>
             </div>
 
-
         </section>
-        
-        
 
         <!-- ################### INICIO FOOTER ##################### -->
         <footer class="footer">
@@ -113,5 +149,6 @@
         </footer>
         <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <script src="../js/courses.js"></script>
+        <script src="../js/navigation.js"></script>
     </body>
 </html>
