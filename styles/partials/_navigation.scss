@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 .menu
 {
     background-color: #1a202c;
@@ -86,6 +85,7 @@
     width: max-content;
     transform: translateY(100%);
     background-color: black;
+    z-index: 2;
 }
 
 .menu__link--inside
@@ -188,6 +188,5 @@
         margin-left: auto;
         border-left: 1px solid #798499;
     }
-
 
 }

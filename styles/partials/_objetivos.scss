@@ -1,0 +1,22 @@
+.bodyObjetivos
+{
+    background-color: black;
+}
+
+.objetivos
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.objetivos__carrusel
+{
+    & img
+    {
+        height: 50%;
+    }
+}

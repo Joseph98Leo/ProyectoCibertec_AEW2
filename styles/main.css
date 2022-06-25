@@ -97,6 +97,79 @@
   padding: 1em 2em 1em 2em;
 }
 
+.nosotros {
+  height: 100vh;
+  padding: 1em 0 1em 0;
+}
+
+.nosotros__info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+}
+
+.nosotros__info p {
+  font-size: 2em;
+  width: 50%;
+}
+
+.nosotros__info h2 {
+  padding: 1em 0 0 0;
+  font-size: 3em;
+}
+
+.nosotros__info img {
+  height: 60%;
+  width: 60%;
+}
+
+.nosotros__info a {
+  color: blue;
+}
+
+.objetivos {
+  height: 100vh;
+  padding: 1em 0 1em 0;
+}
+
+.objetivos h2 {
+  text-align: center;
+  padding: 3em;
+  font-size: 3em;
+}
+
+.cards a {
+  color: blue;
+}
+
+.cards {
+  display: flex;
+  height: 70%;
+  padding: 70px;
+  align-items: center;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  width: 100%;
+}
+
+.cards img {
+  height: 100%;
+  width: 50%;
+}
+
+.cards p {
+  font-size: 2em;
+  padding: 1em 2em 1em 2em;
+}
+
+.whitespace {
+  width: 100%;
+}
+
 .wrapperNoticias {
   background-color: purple;
 }
@@ -277,6 +350,7 @@
   width: max-content;
   transform: translateY(100%);
   background-color: black;
+  z-index: 2;
 }
 
 .menu__link--inside {
@@ -503,6 +577,23 @@
 .ciencia__info p, .ciencia__info a {
   font-size: 1.2em;
   font-family: Victor mono;
+}
+
+.bodyObjetivos {
+  background-color: black;
+}
+
+.objetivos {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.objetivos__carrusel img {
+  height: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */
