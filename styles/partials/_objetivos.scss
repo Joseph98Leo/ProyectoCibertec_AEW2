@@ -1,22 +1,33 @@
-.bodyObjetivos
-{
-    background-color: black;
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap');
+
+.bodyObjetivos {
+    background-color: #edf3f6;
 }
 
-.objetivos
-{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.titu_obje h1 {
+
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    font-family: "Kumbh Sans";
+    font-weight: bold;
 }
 
-.objetivos__carrusel
+
+
+
+.obj__container
 {
-    & img
+    padding: 5em 2em 5em 2em;
+}
+
+.obj__texto
+{
+    & p
     {
-        height: 50%;
+        color: black;
+        font-size: 2.5em;
+        font-family: "Kumbh Sans";
     }
+    
 }

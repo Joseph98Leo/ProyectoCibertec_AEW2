@@ -1,3 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +17,7 @@
 }
 
 .wrapper {
-  background-color: black;
+  background-color: #edf3f6;
 }
 
 .banner {
@@ -51,27 +62,38 @@
 .nosotros__info p {
   font-size: 2em;
   width: 50%;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  color: black;
 }
 .nosotros__info h2 {
   padding: 1em 0 0 0;
+  color: #9b4573;
+  font-family: sans-serif;
+  font-size: 3em;
 }
 .nosotros__info img {
   height: 60%;
   width: 60%;
+}
+.nosotros__info a {
+  color: #9b4573;
 }
 
 .objetivos {
   height: 100vh;
   padding: 1em 0 1em 0;
 }
-.objetivos__info {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100%;
+.objetivos p {
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  color: black;
 }
-.objetivos__info h2 {
-  padding: 2em;
+.objetivos h2 {
+  text-align: center;
+  padding: 3em;
+  font-size: 3em;
+  color: #489dad;
 }
 
 .cards {
@@ -80,6 +102,7 @@
   gap: 1em;
   align-items: center;
   justify-content: center;
+  padding: 4em;
 }
 .cards__info {
   display: flex;
@@ -89,116 +112,105 @@
   width: 100%;
 }
 .cards img {
-  height: 40vh;
+  height: 100%;
+  width: 50%;
   padding: 1em;
 }
 .cards p {
   font-size: 2em;
   padding: 1em 2em 1em 2em;
 }
-
-.nosotros {
-  height: 100vh;
-  padding: 1em 0 1em 0;
-}
-
-.nosotros__info {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2em;
-}
-
-.nosotros__info p {
-  font-size: 2em;
-  width: 50%;
-}
-
-.nosotros__info h2 {
-  padding: 1em 0 0 0;
-  font-size: 3em;
-}
-
-.nosotros__info img {
-  height: 60%;
-  width: 60%;
-}
-
-.nosotros__info a {
-  color: blue;
-}
-
-.objetivos {
-  height: 100vh;
-  padding: 1em 0 1em 0;
-}
-
-.objetivos h2 {
-  text-align: center;
-  padding: 3em;
-  font-size: 3em;
-}
-
 .cards a {
-  color: blue;
-}
-
-.cards {
-  display: flex;
-  height: 70%;
-  padding: 70px;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 10px;
-  width: 100%;
-}
-
-.cards img {
-  height: 100%;
-  width: 50%;
-}
-
-.cards p {
-  font-size: 2em;
-  padding: 1em 2em 1em 2em;
+  color: #489dad;
 }
 
 .whitespace {
   width: 100%;
 }
 
+/*  Inicio CSS* NOTICIAS */
 .wrapperNoticias {
-  background-color: purple;
+  background-color: #edf3f6;
 }
 
-.noticias {
+h1.NOTH1 {
+  text-align: center;
+  margin: 18px;
+  color: black;
+  font-size: 2.5em;
+}
+
+.DIA {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5em;
+}
+
+.THOR {
+  font-size: 1.5em;
+  border: 2px red solid;
   padding: 1em;
 }
-.noticias__links {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  height: 80%;
-  width: 80%;
-  margin: auto;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-.noticias img {
-  width: 100%;
+
+.THOR th {
+  color: black;
 }
 
-.imgprueba img {
-  height: 4em;
+.THOR td {
+  color: black;
+}
+
+h1.NOTICIASH1 {
+  margin: 30px;
+  color: black;
+  font-size: 2em;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+}
+
+img.IMGNOT1 {
+  width: 500px;
+  display: block;
+  margin: 20px auto;
+}
+
+img.NOTICIASHFP {
+  width: 700px;
+  height: 1000px;
+  display: block;
+  margin: 20px auto;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+}
+
+h2.NOTICIASH2 {
+  text-align: center;
+  color: black;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+}
+
+img.NOTICIASIMG {
+  width: 450px;
+  height: 450px;
+  display: block;
+  margin: 10px auto;
+}
+
+li.NOTICIALI {
+  text-align: center;
+  color: #000;
+  margin: 7px;
+}
+
+article.aside_cal {
+  margin: 10px auto;
+  display: block;
 }
 
 .wrapperCourses {
-  background-color: #e4d3c0;
-  font-family: Victor mono;
+  background-color: #edf3f6;
 }
 
 .courses {
@@ -246,6 +258,12 @@
   display: flex;
   gap: 1em;
 }
+.leyenda__bloque a {
+  color: black;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  font-size: 1.5em;
+}
 .leyenda__math {
   background-color: #94d6df;
   height: 2em;
@@ -274,16 +292,19 @@
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
 }
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .menu {
   background-color: #1a202c;
   color: #fff;
   height: 70px;
+}
+
+.titulo__logo {
+  display: flex;
+  align-items: center;
+}
+.titulo__logo h2 {
+  padding-left: 1em;
+  font-family: "Kumbh Sans";
 }
 
 .menu__container {
@@ -304,7 +325,6 @@
   height: 100%;
   transition: transform 0.5s;
   display: flex;
-  /* transform: translateX(100%); */
 }
 
 .menu__item {
@@ -327,6 +347,7 @@
   display: flex;
   height: 100%;
   align-items: center;
+  font-family: "Kumbh Sans";
 }
 
 .menu__link:hover {
@@ -440,7 +461,7 @@
   }
 }
 .footer__wrapper {
-  background-color: #023143b4;
+  background-color: #1a202c;
   /* border: 1px solid red; */
 }
 
@@ -485,7 +506,7 @@
 }
 
 .bodyMath {
-  background-color: black;
+  background-color: #edf3f6;
 }
 
 .math {
@@ -512,15 +533,20 @@
   gap: 2em;
 }
 .math__text h1 {
-  font-size: 2.5em;
+  font-size: 2em;
+  font-family: "Kumbh Sans";
+  color: black;
+  font-weight: bold;
 }
 .math__text p, .math__text a {
-  font-size: 1.3em;
-  font-family: Victor mono;
+  font-size: 1.2em;
+  font-family: "Kumbh Sans";
+  color: black;
+  font-weight: 500;
 }
 
 .bodyLetras {
-  background-color: black;
+  background-color: #edf3f6;
 }
 
 .letras {
@@ -542,15 +568,19 @@
 }
 .letras__info h1 {
   font-size: 2em;
-  font-family: Victor mono;
+  font-family: "Kumbh Sans";
+  color: black;
+  font-weight: bold;
 }
 .letras__info p, .letras__info a {
   font-size: 1.2em;
-  font-family: Victor mono;
+  font-family: "Kumbh Sans";
+  color: black;
+  font-weight: 500;
 }
 
 .bodyCiencia {
-  background-color: black;
+  background-color: #edf3f6;
 }
 
 .ciencia {
@@ -572,28 +602,210 @@
 }
 .ciencia__info h1 {
   font-size: 2em;
-  font-family: Victor mono;
+  font-family: "Kumbh Sans";
+  color: black;
+  font-weight: bold;
 }
 .ciencia__info p, .ciencia__info a {
   font-size: 1.2em;
-  font-family: Victor mono;
+  font-family: "Kumbh Sans";
+  color: black;
+  font-weight: 500;
+}
+
+.success__text {
+  font-size: 3em;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 8em;
+}
+
+.success {
+  z-index: -1;
+  position: absolute;
+}
+
+.success__lottie {
+  width: 100%;
+  height: 100vh;
+  background-color: cover;
+  pointer-events: none;
 }
 
 .bodyObjetivos {
-  background-color: black;
+  background-color: #edf3f6;
 }
 
-.objetivos {
-  width: 100%;
-  height: 100vh;
+.titu_obje h1 {
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+}
+
+.obj__container {
+  padding: 5em 2em 5em 2em;
+}
+
+.obj__texto p {
+  color: black;
+  font-size: 2.5em;
+  font-family: "Kumbh Sans";
+}
+
+/*  Inicio CSS* GALERIA */
+img.GAL1 {
+  width: 1200px;
+  height: 500px;
+  display: block;
+  margin: 10px auto;
+}
+
+img.GAL2 {
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin: 10px auto;
+}
+
+h1.GALERIAH1 {
+  margin: 30px;
+  color: black;
+}
+
+p.GALERIAP {
+  display: block;
+  margin: 5px auto;
+  color: black;
+  width: 30%;
+  margin-bottom: 2em;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+}
+
+img.imgcab1 {
+  width: 600px;
+  height: 600px;
+  display: block;
+  margin: 10px auto;
+}
+
+.wrapper__nosotros {
+  background-color: #edf3f6;
+}
+
+.titu_nosotros h1 {
+  text-align: center;
+  color: black;
+  font-size: 3em;
+}
+
+.nosot__info {
+  padding: 3em;
+}
+
+.nosot__info p {
+  color: black;
+  font-size: 2em;
+  font-family: "Kumbh Sans";
+  font-weight: 500;
+}
+
+.crea__info {
+  text-align: center;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
 }
 
-.objetivos__carrusel img {
-  height: 50%;
+.crea__info p {
+  font-size: 2em;
+  color: black;
+  font-family: "Kumbh Sans";
+}
+
+.crea__cards {
+  padding: 5em;
+}
+
+.crea h1 {
+  text-align: center;
+  color: black;
+  font-size: 3em;
+  padding: 1em;
+}
+
+.crea__info {
+  display: flex;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.crea__info h3 {
+  text-align: center;
+  color: black;
+  padding: 1em;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+}
+
+.crea__info img {
+  height: 200px;
+  width: 200px;
+}
+
+.crea__info p {
+  color: black;
+}
+
+.wrapper__talleres {
+  overflow-x: hidden;
+}
+
+.RU {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+h1.TAL1 {
+  margin: 10px;
+  color: #000;
+  margin-left: 60px;
+  margin-top: 50px;
+  font-family: "Kumbh Sans";
+  font-weight: bold;
+  font-size: 2em;
+}
+
+a.se {
+  margin: 30px;
+  display: block;
+  margin: 15px auto;
+  color: #000;
+}
+
+p.TALLERESP {
+  width: 50%;
+  float: right;
+  margin: 20px;
+  color: #000;
+  font-size: 1.5em;
+  font-family: "Kumbh Sans";
+}
+
+ol.img {
+  float: left;
+}
+
+img.img10 {
+  width: 40%;
+  height: 60%;
+  margin: 10px 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap');
+
+.wrapper__nosotros
+{
+    background-color: #edf3f6;
+}
+
+.titu_nosotros h1{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+  }
+
+  .nosot__info
+  {
+    padding: 3em;
+  }
+  
+  .nosot__info p{
+    color: black;
+    font-size: 2em;
+    font-family: "Kumbh Sans";
+    font-weight: 500;
+  }
+  
+  .crea__info{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .crea__info p {
+    font-size: 2em;
+    color: black;
+    font-family: "Kumbh Sans";
+  }
+
+  .crea__cards
+  {
+    padding: 5em;
+  }
+  
+  .crea h1{
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    padding: 1em;
+  }
+  
+  .crea__info{
+    display: flex;
+    align-items: center;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .crea__info h3 {
+    text-align: center;
+    color: black;
+    padding: 1em;
+    font-family: "Kumbh Sans";
+    font-weight: bold;
+  }
+  
+  .crea__info img{
+    height: 200px;
+    width: 200px;
+  }
+  
+  .crea__info p{
+    color: black;
+  }

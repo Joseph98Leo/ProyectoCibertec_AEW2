@@ -11,6 +11,8 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link href="https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap" rel="stylesheet">
+
     <!-- ##################### ADD WOW.JS ##################### -->
     <script src="js/wow.min.js"></script>
 
@@ -21,7 +23,11 @@
     <!-- ########################## NAVIGATION ######################### -->
     <nav class="menu">
         <section class="menu__container">
-            <img src="imagenes/logoColegio.jpeg" alt="" class="menu__logo">
+            <div class="titulo__logo">
+                <img src="imagenes/logoColegio.jpeg" alt="" class="menu__logo">
+                <h2>PumaSchools</h2>
+            </div>
+            
 
             <ul class="menu__links">
                 <li class="menu__item menu__item--show">
@@ -30,10 +36,10 @@
 
                     <ul class="menu__nesting">
                         <li class="menu__inside">
-                            <a href="paginas/nosotros.html" class="menu__link menu__link--inside">nosotros</a>
+                            <a href="paginas/nosotros.html" class="menu__link menu__link--inside">NOSOTROS</a>
                         </li>
                         <li class="menu__inside">
-                            <a href="paginas/objetivos.html" class="menu__link menu__link--inside">objetivos</a>
+                            <a href="paginas/objetivos.html" class="menu__link menu__link--inside">OBJETIVOS</a>
                         </li>
                     </ul>
                 </li>
@@ -125,7 +131,7 @@
                         <img src="imagenes/logoColegio.jpeg" alt="logo" class="footerLogo">
                     </div>
                     <div class="datosColegio">
-                        <li>UBICACIÓN</li>
+                        <li>Sede Magdalena- Av. Del Ejército 430.</li>
                         <li>+51-987654321</li>
                         <li>colegio.educa@gmail.com</li>
                     </div>
@@ -135,21 +141,21 @@
                     <h3>Company</h3>
                     <div class="footerNav">
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Cursos</a></li>
-                        <li><a href="#">Noticias</a></li>
-                        <li><a href="#">Galería</a></li>
-                        <li><a href="#">Talleres</a></li>
+                        <li><a href="paginas/cursos.html">Cursos</a></li>
+                        <li><a href="paginas/noticias.html">Noticias</a></li>
+                        <li><a href="paginas/galeria.html">Galería</a></li>
+                        <li><a href="paginas/talleres.html">Talleres</a></li>
                     </div>
                 </div>
 
                 <div class="column">
                     <h3>Our Social Media</h3>
                     <div class="icons">
-                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
-                        <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href="https://es-la.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.google.com/intl/es-419/gmail/about/"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://web.telegram.org/z/"><i class="fa-brands fa-telegram"></i></a>
                     </div>
                 </div>
             </div>
@@ -160,8 +166,6 @@
         </div>
 
         <!-- ########### ADD GREENSOCK(GSAP) ############# -->
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 
         <script src="js/index.js"></script>
         <script src="js/navigation.js"></script>

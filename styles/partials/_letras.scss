@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap');
+
 .bodyLetras
 {
-    background-color: black;
+    background-color: #edf3f6;
 }
 
 .letras
@@ -27,13 +29,17 @@
         h1
         {
             font-size: 2em;
-            font-family: Victor mono;
+            font-family: "Kumbh Sans";
+            color: black;
+            font-weight: bold;
         }
 
         p,a
         {
             font-size: 1.2em;
-            font-family: Victor mono;
+            font-family: "Kumbh Sans";
+            color: black;
+            font-weight: 500;
         }
     }
 }

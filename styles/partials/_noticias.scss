@@ -1,35 +1,81 @@
+/*  Inicio CSS* NOTICIAS */
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap');
+
+
 .wrapperNoticias
 {
-    background-color: purple;
+    background-color: #edf3f6;
 }
 
-.noticias
-{
+h1.NOTH1{
+    text-align: center;
+    margin: 18px;
+    color: black;
+    font-size: 2.5em;
+  }
+  .DIA{
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5em;
+  
+  }
+  .THOR{
+    font-size: 1.5em;
+    border: 2px red solid;
     padding: 1em;
+  }
 
-    &__links
-    {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        height: 80%;
-        width: 80%;
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-        overflow: hidden;
-    }
+  .THOR th
+  {
+    color: black;
+  }
 
-    & img
-    {
-        width: 100%;
-    }
-}
-
-.imgprueba
-{
-    & img
-    {
-        height: 4em;
-    }
-}
+  .THOR td
+  {
+    color: black;
+  }
+  
+  h1.NOTICIASH1{
+    margin: 30px;
+    color: black;
+    font-size: 2em;
+    font-family: "Kumbh Sans";
+    font-weight: bold;
+  }
+  img.IMGNOT1 {
+    width: 500px;
+    display: block;
+    margin: 20px auto;
+  }
+  img.NOTICIASHFP{
+    width: 700px;
+    height: 1000px;
+    display: block;
+    margin: 20px auto;
+    font-family: "Kumbh Sans";
+    font-weight: bold;
+  }
+  h2.NOTICIASH2{
+    text-align: center;
+    color: black;
+    font-family: "Kumbh Sans";
+    font-weight: bold;
+  }
+  img.NOTICIASIMG{
+    width: 450px;
+    height: 450px;
+    display: block;
+    margin: 10px auto;
+  }
+  li.NOTICIALI{
+    text-align: center;
+    color: #000;
+    margin: 7px;
+  }
+  article.aside_cal{
+      margin: 10px auto;
+      display: block;
+  }
+  

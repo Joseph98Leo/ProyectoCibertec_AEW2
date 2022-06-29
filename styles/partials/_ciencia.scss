@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Kumbh+Sans:wght@200&family=Titan+One&display=swap');
+
 .bodyCiencia
 {
-    background-color: black;
+    background-color: #edf3f6;
 }
 
 .ciencia
@@ -27,13 +29,41 @@
         h1
         {
             font-size: 2em;
-            font-family: Victor mono;
+            font-family: "Kumbh Sans";
+            color: black;
+            font-weight: bold;
         }
 
         p,a
         {
             font-size: 1.2em;
-            font-family: Victor mono;
+            font-family: "Kumbh Sans";
+            color: black;
+            font-weight: 500;
         }
     }
+}
+
+.success__text
+{
+    font-size: 3em;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 8em;
+}
+
+.success
+{
+    z-index: -1;
+    position: absolute;
+}
+
+.success__lottie
+{
+    width: 100%;
+    height: 100vh;
+    background-color: cover;
+    pointer-events: none;
 }
